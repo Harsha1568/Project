@@ -1,8 +1,7 @@
 # Cricket Score Predictor
-
 This project is designed to predict cricket match scores using machine learning models.
 
-## Requirements
+## Inputs for Prediction
 1.Name of Teams Playing  
 2.Location  
 3.Current Score  
@@ -10,10 +9,7 @@ This project is designed to predict cricket match scores using machine learning 
 5.Overs done  
 6.Runs made in last 5 overs
 
-
-
 ## Usage
-
 This script is designed to predict cricket scores using a machine learning model. The model is trained using the **XGBoost** algorithm, which is known for its high performance and efficiency in handling structured data. I utilize the **scikit-learn** (`sklearn`) library to manage the data preprocessing, model training, and evaluation processes.I also utilized
 
 ### Requirements:
@@ -23,7 +19,6 @@ This script is designed to predict cricket scores using a machine learning model
 - **tqdm**: A library used to display progress bars for loops, making it easier to track the progress of operations, such as data loading.
 
 ### Example:
-
 To run the script, ensure you have the necessary libraries installed:
 
 ```bash
